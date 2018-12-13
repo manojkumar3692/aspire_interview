@@ -1,0 +1,23 @@
+@import "../../style/globalStyleDeclaration";
+
+.header   {
+  height: 60px;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 40px rgba(0,0,0,.2);
+  header {
+    h1 {
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+}
+
+.iconColor {
+  color: $secondaryColorFontColor;
+  cursor: pointer;
+  font-size: 22px;
+}

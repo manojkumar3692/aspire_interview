@@ -1,0 +1,57 @@
+@import "../style/globalStyleDeclaration";
+
+.header {
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+
+.headerRight {
+  ul {
+    li {
+      margin: 0rem 1rem;
+      font-size: 14px;
+      text-transform: capitalize;
+      font-weight: 400;
+      color: $primaryFontColor;
+      cursor: pointer;
+    }
+  }
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  img {
+    width: 100px;
+    height: 30px;
+    padding-top: 4px;
+  }
+}
+
+.footerContent {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    color: $primaryFontColor;
+  }
+}
+
+.labelColor {
+  color: #fff;
+}
+

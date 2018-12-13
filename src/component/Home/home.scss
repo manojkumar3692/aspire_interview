@@ -1,0 +1,158 @@
+@import "../../style/globalStyleDeclaration";
+
+.home {
+}
+
+.homeHeader {
+  height: 450px;
+  background-image: url("https://aspire-cap.com/static/images/home-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+  //background-image: linear-gradient(135deg,#02b3e4 0,#7d97ad 100%);
+  left: 0;
+  width: 100%;
+  opacity: .75;
+  img {
+    width:100%;
+  }
+}
+
+.subHeading {
+  height: 300px;
+  background-image: url("https://in.udacity.com/assets/iridium/images/home-in/latest-offer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+  left: 0;
+  width: 100%;
+  opacity: .75;
+  img {
+    width:100%;
+  }
+}
+
+.landingContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  div {
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+  }
+
+}
+
+.modules {
+  position: relative;
+  bottom: 100px;
+}
+.modulesText {
+  padding: 0rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.separator {
+  height: 2px;
+  background: $primaryFontColor;
+  width: 30%;
+}
+.separatorText {
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: $primaryFontColor;
+  }
+}
+
+.moduleListContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+}
+
+.modulesList {
+  width: 11.625rem;
+  background: #fff;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: .375rem;
+  transition: .3s;
+  position: relative;
+  text-align: center;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.iconColor {
+  color:$primaryIconColor;
+  font-size: 2rem;
+}
+
+.topShadow {
+  height: .375rem;
+  display: block;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
+  background-image: linear-gradient(to right,#02b3e4 0,#02ccba 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.subHeader {
+  height: 200px;
+  background: #f6f4f8;
+  text-align: center;
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: $primaryFontColor;
+    padding-top: 3rem;
+  }
+}
+
+.modulesDetails {
+  padding: 3rem 5rem 0rem;
+  text-align: center;
+  h1 {
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #1c262f;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color:$primaryFontColor
+  }
+}

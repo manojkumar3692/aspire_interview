@@ -1,0 +1,17 @@
+@import "../../style/globalStyleDeclaration";
+.dashboard {
+  padding: 1rem;
+}
+
+.dashboardBreadNav {
+  padding-bottom: 2rem;
+  h1 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.selectorButton {
+  width:100px !important;
+  height: 30px;
+}

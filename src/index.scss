@@ -1,0 +1,25 @@
+@import 'style/globalStyleDeclaration';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bodyBg;
+  font-family: 'Open Sans', sans-serif;
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+    }
+  }
+}
